@@ -2,6 +2,13 @@
 <title>Upload Download</title>
 <body>
 <h1>Upload</h1>
-  <a href="https://github.com/CppplanetCoderTeam/Try2/blob/master/Upload.docx" download="Upload.docx">Click</a>
+ var $eleBtn1 = $("#btn1");  
+        var $eleBtn2 = $("#btn2");  
+  
+        //已知一个下载文件的后端接口：https://codeload.github.com/douban/douban-client/legacy.zip/master  
+        //方法一：window.open()  
+        $eleBtn1.click(function(){  
+            window.open("https://github.com/CppplanetCoderTeam/Try2/blob/master/Upload.docx");  
+        });  
 </body>
 </html>
